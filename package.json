@@ -1,0 +1,28 @@
+{
+  "name": "ProjectRequirments",
+  "version": "0.0.1",
+  "description": "A project used to display and project plan airtable by project",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint ./src/*.js",
+    "lint-fix": "eslint ./src/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hicsail/joiform.git"
+  },
+  "author": "Boston University hicsail & Application Innovation Lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hicsail/joiform/issues"
+  },
+  "homepage": "https://github.com/hicsail/joiform#readme",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "airtable": "^0.5.1",
+    "mustache": "^2.3.0"
+  }
+}
